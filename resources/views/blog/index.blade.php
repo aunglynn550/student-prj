@@ -44,7 +44,7 @@
 								</section>
 							
 
-							<p class="text-center"><a href="offer.html">View All Posts &nbsp;<i class="fa fa-long-arrow-right"></i></a></p>
+							<p class="text-center"><a href="{{ route('category', ['id' => $hisCate]) }}">View All Posts &nbsp;<i class="fa fa-long-arrow-right"></i></a></p>
 
 							<br>
 
@@ -76,7 +76,7 @@
 								
 							</section>
 
-							<p class="text-center"><a href="fleet.html">View All Ancients &nbsp;<i class="fa fa-long-arrow-right"></i></a></p>
+							<p class="text-center"><a href="{{ route('category', ['id' => $ancCate]) }}">View All Ancients &nbsp;<i class="fa fa-long-arrow-right"></i></a></p>
 
 							<br>
 

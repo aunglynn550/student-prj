@@ -4,9 +4,9 @@
 		<title>Museum!</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="template/assets/bootstrap/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="template/assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="template/assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/template/assets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="/template/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/template/assets/css/noscript.css" /></noscript>
 	</head>
 
     <body class="is-preload">
@@ -65,9 +65,9 @@
    
 
             <!-- Scripts -->
-			<script src="template/assets/js/jquery.min.js"></script>
-			<script src="template/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-			<script src="template/assets/js/jquery.scrolly.min.js"></script>
-			<script src="template/assets/js/jquery.scrollex.min.js"></script>
-			<script src="template/assets/js/main.js"></script>
+			<script src="/template/assets/js/jquery.min.js"></script>
+			<script src="/template/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+			<script src="/template/assets/js/jquery.scrolly.min.js"></script>
+			<script src="/template/assets/js/jquery.scrollex.min.js"></script>
+			<script src="/template/assets/js/main.js"></script>
         </body>

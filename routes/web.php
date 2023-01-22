@@ -32,7 +32,13 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
+
+Route::get('/single', function () {
+    return view('blog/single');
+});
+
 Route::get('/blogs', [App\Http\Controllers\BlogsController::class, 'index'])->name('blogs');
+Route::get('/category/{id}', [App\Http\Controllers\CategoryController::class, 'index'])->name('category');
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
