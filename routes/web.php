@@ -32,6 +32,7 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
+Route::get('/blogs', [App\Http\Controllers\BlogsController::class, 'index'])->name('blogs');
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
