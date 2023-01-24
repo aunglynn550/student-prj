@@ -33,17 +33,13 @@ Route::get('/welcome', function () {
 });
 
 
-Route::get('/single', function () {
-    return view('blog/single');
-});
+Route::get('/search',[App\Http\Controllers\SearchController::class, 'search'])->name('search');
+Route::get('/single/{id}',[App\Http\Controllers\SingleController::class, 'index'])->name('single');
 
 Route::get('/blogs', [App\Http\Controllers\BlogsController::class, 'index'])->name('blogs');
 Route::get('/category/{id}', [App\Http\Controllers\CategoryController::class, 'index'])->name('category');
 
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
-
-
-Auth::routes();
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Auth::routes();

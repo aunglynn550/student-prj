@@ -108,7 +108,7 @@ class BlogSeeder extends Seeder
             'height'=>'',
             'weight'=>'(10.55)g',
             'length'=>'',
-            'year'=>'',
+            'year'=>'1991',
             'date'=>Carbon::create('2000', '01', '01'),
             'categories_id'=>1,
             'ages_id'=>2,

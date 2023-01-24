@@ -27,7 +27,7 @@
 									<span class="image">
 										<img src="/img/blog/{{ $history->image }}" alt="" />
 									</span>
-									<a href="offers.html">
+									<a href="{{ route('single', [$blog->id]) }}">
 										<h2>{{ $history->title }}</h2>
 										
 									

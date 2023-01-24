@@ -29,7 +29,7 @@
 									<span class="image">
 										<img src="img/blog/{{ $history->image }}" alt="" />
 									</span>
-									<a href="offers.html">
+									<a href="{{ route('single', [$history->id]) }}">
 										<h2>{{ $history->title }}</h2>
 										
 									
@@ -57,7 +57,7 @@
 									<span class="image">
 										<img src="img/blog/{{ $ancient->image }}" alt="" />
 									</span>
-									<a href="fleet.html">
+									<a href="{{ route('single', [$ancient->id]) }}">
 										<h2>{{ $ancient->title }}</h2>
 										
 										<div class="content">
@@ -80,58 +80,7 @@
 
 							<br>
 
-							<h2 class="h2">Blog</h2>
 							
-							<div class="row">
-								<div class="col-sm-4 text-center">
-									<img src="img/blog/blog7.jpg" class="img-fluid" alt="" />
-
-									<h2 class="m-n"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h2>
-
-									<p> John Doe &nbsp;|&nbsp; 12/06/2020 10:30</p>
-								</div>
-
-								<div class="col-sm-4 text-center">
-									<img src="img/blog/blog4.jpg" class="img-fluid" alt="" />
-
-									<h2 class="m-n"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h2>
-
-									<p> John Doe &nbsp;|&nbsp; 12/06/2020 10:30</p>
-								</div>
-
-								<div class="col-sm-4 text-center">
-									<img src="img/blog/blog2.jpg" class="img-fluid" alt="" />
-
-									<h2 class="m-n"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h2>
-
-									<p> John Doe &nbsp;|&nbsp; 12/06/2020 10:30</p>
-								</div>
-							</div>
-
-							<p class="text-center"><a href="blog.html">Read More &nbsp;<i class="fa fa-long-arrow-right"></i></a></p>
-
-							<br>
-
-							<h2 class="h2">Testimonials</h2>
-							
-							<div class="row">
-								<div class="col-sm-6 text-center">
-									<p class="m-n"><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt delectus mollitia, debitis architecto recusandae? Quidem ipsa, quo, labore minima enim similique, delectus ullam non laboriosam laborum distinctio repellat quas deserunt voluptas reprehenderit dignissimos voluptatum deleniti saepe. Facere expedita autem quos."</em></p>
-
-									<p><strong> - John Doe</strong></p>
-								</div>
-
-								<div class="col-sm-6 text-center">
-									<p class="m-n"><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt delectus mollitia, debitis architecto recusandae? Quidem ipsa, quo, labore minima enim similique, delectus ullam non laboriosam laborum distinctio repellat quas deserunt voluptas reprehenderit dignissimos voluptatum deleniti saepe. Facere expedita autem quos."</em></p>
-
-									<p><strong>- John Doe</strong> </p>
-								</div>
-							</div>
-
-							<p class="text-center"><a href="testimonials.html">Read More &nbsp;<i class="fa fa-long-arrow-right"></i></a></p>
-						</div>
-					</div>
-
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">

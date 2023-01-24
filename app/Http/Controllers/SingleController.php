@@ -8,8 +8,9 @@ use App\Models\Blog;
 class SingleController extends Controller
 {
     //
-    public function index()
+    public function index($id)
     {
-           return view('blog/ancient',['blogs'=>$blogs]);
+            $blog= Blog::where('id',$id)->first();
+           return view('blog/single',['blog'=>$blog]);
     }
 }
